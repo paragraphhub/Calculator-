@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- ✅ SEO Title -->
+  <title>Scientific Calculator Online | Trigonometry, Fraction & Decimal Calculator</title>
+
+  <!-- ✅ Meta Description -->
+  <meta name="description" content="Free online scientific calculator with trigonometry (sin, cos, tan), fraction to decimal converter, decimal to fraction, fast and mobile-friendly calculator.">
+
+  <!-- ✅ Keywords -->
+  <meta name="keywords" content="scientific calculator, online calculator, fraction to decimal calculator, decimal to fraction calculator, trigonometry calculator, sin cos tan calculator">
+
+  <!-- ✅ Mobile Friendly -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ✅ Canonical -->
+  <link rel="canonical" href="https://yourwebsite.com/scientific-calculator">
+
+  <!-- ✅ Open Graph (Facebook, WhatsApp) -->
+  <meta property="og:title" content="Scientific Calculator Online – Free & Fast">
+  <meta property="og:description" content="Use this free scientific calculator with trigonometry and fraction conversion. Mobile friendly and instant results.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourwebsite.com/scientific-calculator">
+
+  <!-- ✅ Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Scientific Calculator Online">
+  <meta name="twitter:description" content="Free scientific calculator with sin, cos, tan and fraction converter.">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- ✅ Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Scientific Calculator",
+    "applicationCategory": "CalculatorApplication",
+    "operatingSystem": "Web",
+    "description": "Online scientific calculator with trigonometry and fraction to decimal conversion.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  }
+  </script>
+</head>
+
+<body>
+
+<header>
+  <h1 style="display:none;">Scientific Calculator Online with Trigonometry</h1>
+</header>
+
+<main>
+
+<!-- ✅ Hidden SEO Content -->
+<section style="display:none;">
+  <h2>Free Scientific Calculator</h2>
+  <p>
+    This online scientific calculator helps students and professionals calculate
+    trigonometry functions like sin, cos, tan, cot, sec and cosec.
+    It also supports fraction to decimal and decimal to fraction conversion.
+  </p>
+</section>
+
+<!-- 🔢 Calculator UI -->
+<section class="calculator">
+  <input type="text" id="display" readonly aria-label="Calculator display">
+
+  <div class="buttons">
+    <button onclick="clearDisplay()">AC</button>
+    <button onclick="append('(')">(</button>
+    <button onclick="append(')')">)</button>
+    <button onclick="append('/')">÷</button>
+
+    <button onclick="append('7')">7</button>
+    <button onclick="append('8')">8</button>
+    <button onclick="append('9')">9</button>
+    <button onclick="append('*')">×</button>
+
+    <button onclick="append('4')">4</button>
+    <button onclick="append('5')">5</button>
+    <button onclick="append('6')">6</button>
+    <button onclick="append('-')">−</button>
+
+    <button onclick="append('1')">1</button>
+    <button onclick="append('2')">2</button>
+    <button onclick="append('3')">3</button>
+    <button onclick="append('+')">+</button>
+
+    <button onclick="append('0')">0</button>
+    <button onclick="append('.')">.</button>
+    <button onclick="calculate()">=</button>
+    <button class="special" onclick="toggleFraction()">Frac ⇄ Dec</button>
+  </div>
+
+  <div class="trig">
+    <button onclick="appendTrig('sin(')">sin</button>
+    <button onclick="appendTrig('cos(')">cos</button>
+    <button onclick="appendTrig('tan(')">tan</button>
+    <button onclick="appendTrig('cot(')">cot</button>
+    <button onclick="appendTrig('sec(')">sec</button>
+    <button onclick="appendTrig('cosec(')">cosec</button>
+    <button onclick="append('π')">π</button>
+  </div>
+
+</section>
+
+</main>
+
+<footer style="display:none;">
+  <p>Scientific Calculator Online – Free Tool for Students</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
